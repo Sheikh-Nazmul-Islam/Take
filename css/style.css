@@ -49,7 +49,7 @@ h6{
 #hero_part{
     width: 100%;
     height: 100vh;
-    background: url(../images/hero_img.png) no-repeat;
+    background: url(../images/hero_img.png) center no-repeat;
     background-size: cover;
 }
 .hero_con_main .container{
@@ -68,6 +68,7 @@ h6{
 }
 .hero_con_text{
     margin-top: 250px;
+    padding-bottom: 20px;
     color: #fff;
 }
 /* =========================
@@ -98,7 +99,7 @@ h6{
 #power_part{
     width: 100%;
     height: 100vh;
-    background: url(../images/car_img.png) no-repeat ;
+    background: url(../images/car_img.png) center no-repeat;
     background-size: cover;
     color: #fff;
     padding-bottom: 100px;
@@ -108,6 +109,7 @@ h6{
 }
 .power_con .power_text{
     margin-top: 50%;
+    padding-bottom: 20px;
 }
 /* =========================
     Power part end
