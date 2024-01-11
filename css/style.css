@@ -84,6 +84,49 @@ h6{
     Abuot part end
 ===========================*/
 /* =========================
+    gellary part start
+===========================*/
+#gellary_part .container{
+    color: #fff;
+}
+#gellary_part .container .desgin{ 
+    width: 100%;
+    height: 100%;
+    background: url(../images/pic_img1.png) center no-repeat;
+    background-size: cover;
+
+}
+#gellary_part .container .built{ 
+    background: url(../images/pic_img2.png) center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#gellary_part .container .clients{ 
+    background: url(../images/pic_img3.png) center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#gellary_part .container .sign_up{ 
+    background: url(../images/pic_img4.png) center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#gellary_part .container .perfect{ 
+    background: url(../images/pic_img5.png) center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#gellary_part .container .para{
+    width: 70%;
+}
+/* =========================
+    gellary part end
+===========================*/
+/* =========================
     Details part start
 ===========================*/
 .details_part{
@@ -98,11 +141,11 @@ h6{
 ===========================*/
 #power_part{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: url(../images/car_img.png) center no-repeat;
     background-size: cover;
     color: #fff;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .power_con p{
     width: 85%;
@@ -115,7 +158,7 @@ h6{
     Power part end
 ===========================*/
 /* =========================
-    Power part start
+    Reasons part start
 ===========================*/
 #reasons_part{
     width: 100%;
@@ -125,7 +168,7 @@ h6{
     padding-bottom: 160px;
 }
 /* =========================
-    Power part end
+    Reasons part end
 ===========================*/
 /* =========================
     Buy part start
@@ -170,7 +213,7 @@ h6{
     Footer part start
 ===========================*/
 .footer_part{
-    padding: 130px 0px 150px;
+    padding: 130px 0px 130px 0px;
     background: #192331;
     color: #fff;
 }
@@ -219,8 +262,12 @@ h6{
 @media (max-width: 576px){
     #power_part h2{
         font-size: 30px;
+    } 
+}
+@media (max-width: 767px){
+    #gellary_part .container .para{
+        width: 100%;
     }
-
 }
 @media (min-width: 576px and max-width:768px) {
     .power_con p{
